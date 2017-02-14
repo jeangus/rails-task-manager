@@ -1,0 +1,7 @@
+<%= form_for(@task)  do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :done %>
+  <%= f.check_box :done %>
+  <%= f.submit :class => 'btn btn-primary' %>
+<% end %>
